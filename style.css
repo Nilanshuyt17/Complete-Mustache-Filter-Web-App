@@ -1,0 +1,30 @@
+.heading {
+    font-size: 38px;
+    font-family: 'Festive', cursive;
+    width: 50%;
+}
+
+.btn-danger:hover {
+    background-color: rgb(187, 255, 0);
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+button {
+    font-family: 'Festive', cursive;
+    font-size: 30px;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from {box-shadow: 2px 2px 100px red;}
+    to {box-shadow: 3px 3px 80px blue;}
+}
+
+body {
+    background-size: cover;
+    background-clip: border-box;
+}
